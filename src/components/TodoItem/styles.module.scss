@@ -1,0 +1,24 @@
+@import '@/styles/variables.scss';
+
+.item {
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+    &.done {
+        background-color: $theme-done;
+    }
+
+    &.not_done {
+        background-color: $theme-main;
+    }
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
